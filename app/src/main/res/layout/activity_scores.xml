@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_bg"
+    tools:context=".ScoresActivity">
+
+    <TextView
+        android:id="@+id/max_scores"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="128dp"
+        android:text="Рекорд: 12"
+        android:textSize="48sp"
+        android:fontFamily="@font/font"
+        android:gravity="center"
+        android:textColor="@color/yellow"
+        android:shadowColor="@color/orange"
+        android:shadowRadius="5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/your_scores"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Вы набрали 10 очков"
+        android:textSize="32sp"
+        android:fontFamily="@font/font"
+        android:gravity="center"
+        android:textColor="@color/yellow"
+        android:shadowColor="@color/orange"
+        android:shadowRadius="5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/max_scores" />
+
+    <ImageButton
+        android:id="@+id/play_return"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:src="@drawable/ic_btn_play_again"
+        android:background="@android:color/transparent"/>
+
+    <ImageButton
+        android:id="@+id/menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_btn_menu"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
