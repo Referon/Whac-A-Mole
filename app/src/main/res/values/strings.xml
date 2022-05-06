@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Whac-A-Mole</string>
+    <string name="text1">Dont let them near the house!</string>
+    <string name="text2">Click on all the moles!</string>
+    <string name="text3">They ve taken over the entire backyard!</string>
+    <string name="text4">Save the house from these moles!</string>
+</resources>
